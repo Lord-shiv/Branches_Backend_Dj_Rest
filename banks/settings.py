@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '-+2iy!-7nj_#hrn=o5olfvy^bzhoy^11-ds8pu!3ei&#42+l-j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['branches-front-shiv.herokuapp.com']
+ALLOWED_HOSTS = ['branches-front-shiv.herokuapp.com', '127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
     "https://branches-front-shiv.herokuapp.com",
